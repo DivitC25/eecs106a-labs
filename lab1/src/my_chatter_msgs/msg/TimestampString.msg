@@ -1,0 +1,2 @@
+string user_input
+int64 timestamp

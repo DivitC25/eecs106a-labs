@@ -1,0 +1,39 @@
+[0.668s] Invoking command in '/home/user/ros_workspaces/lab1/src/chatter': PYTHONPATH=/home/user/ros_workspaces/lab1/build/chatter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros_workspaces/lab1/install/chatter/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chatter build --build-base /home/user/ros_workspaces/lab1/build/chatter/build install --record /home/user/ros_workspaces/lab1/build/chatter/install.log --single-version-externally-managed install_data
+[0.828s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.829s]   warnings.warn(msg)
+[0.938s] running egg_info
+[0.956s] creating ../../build/chatter/chatter.egg-info
+[0.956s] writing ../../build/chatter/chatter.egg-info/PKG-INFO
+[0.957s] writing dependency_links to ../../build/chatter/chatter.egg-info/dependency_links.txt
+[0.957s] writing entry points to ../../build/chatter/chatter.egg-info/entry_points.txt
+[0.957s] writing requirements to ../../build/chatter/chatter.egg-info/requires.txt
+[0.957s] writing top-level names to ../../build/chatter/chatter.egg-info/top_level.txt
+[0.957s] writing manifest file '../../build/chatter/chatter.egg-info/SOURCES.txt'
+[0.995s] reading manifest file '../../build/chatter/chatter.egg-info/SOURCES.txt'
+[0.996s] writing manifest file '../../build/chatter/chatter.egg-info/SOURCES.txt'
+[0.997s] running build
+[0.997s] running build_py
+[0.997s] creating /home/user/ros_workspaces/lab1/build/chatter/build/lib/chatter
+[0.997s] copying chatter/publisher_member_function.py -> /home/user/ros_workspaces/lab1/build/chatter/build/lib/chatter
+[0.997s] copying chatter/__init__.py -> /home/user/ros_workspaces/lab1/build/chatter/build/lib/chatter
+[0.997s] copying chatter/subscriber_member_function.py -> /home/user/ros_workspaces/lab1/build/chatter/build/lib/chatter
+[0.998s] running install
+[1.002s] running install_lib
+[1.020s] creating /home/user/ros_workspaces/lab1/install/chatter/lib/python3.10/site-packages/chatter
+[1.020s] copying /home/user/ros_workspaces/lab1/build/chatter/build/lib/chatter/publisher_member_function.py -> /home/user/ros_workspaces/lab1/install/chatter/lib/python3.10/site-packages/chatter
+[1.020s] copying /home/user/ros_workspaces/lab1/build/chatter/build/lib/chatter/__init__.py -> /home/user/ros_workspaces/lab1/install/chatter/lib/python3.10/site-packages/chatter
+[1.020s] copying /home/user/ros_workspaces/lab1/build/chatter/build/lib/chatter/subscriber_member_function.py -> /home/user/ros_workspaces/lab1/install/chatter/lib/python3.10/site-packages/chatter
+[1.021s] byte-compiling /home/user/ros_workspaces/lab1/install/chatter/lib/python3.10/site-packages/chatter/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[1.021s] byte-compiling /home/user/ros_workspaces/lab1/install/chatter/lib/python3.10/site-packages/chatter/__init__.py to __init__.cpython-310.pyc
+[1.021s] byte-compiling /home/user/ros_workspaces/lab1/install/chatter/lib/python3.10/site-packages/chatter/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[1.022s] running install_data
+[1.022s] creating /home/user/ros_workspaces/lab1/install/chatter/share/ament_index/resource_index/packages
+[1.022s] copying resource/chatter -> /home/user/ros_workspaces/lab1/install/chatter/share/ament_index/resource_index/packages
+[1.022s] copying package.xml -> /home/user/ros_workspaces/lab1/install/chatter/share/chatter
+[1.022s] running install_egg_info
+[1.041s] Copying ../../build/chatter/chatter.egg-info to /home/user/ros_workspaces/lab1/install/chatter/lib/python3.10/site-packages/chatter-0.0.0-py3.10.egg-info
+[1.042s] running install_scripts
+[1.079s] Installing listener script to /home/user/ros_workspaces/lab1/install/chatter/lib/chatter
+[1.079s] Installing talker script to /home/user/ros_workspaces/lab1/install/chatter/lib/chatter
+[1.079s] writing list of installed files to '/home/user/ros_workspaces/lab1/build/chatter/install.log'
+[1.103s] Invoked command in '/home/user/ros_workspaces/lab1/src/chatter' returned '0': PYTHONPATH=/home/user/ros_workspaces/lab1/build/chatter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros_workspaces/lab1/install/chatter/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/chatter build --build-base /home/user/ros_workspaces/lab1/build/chatter/build install --record /home/user/ros_workspaces/lab1/build/chatter/install.log --single-version-externally-managed install_data

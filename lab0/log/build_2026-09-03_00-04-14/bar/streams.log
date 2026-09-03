@@ -1,0 +1,28 @@
+[0.902s] Invoking command in '/home/user/ros_workspaces/lab0/src/bar': PYTHONPATH=/home/user/ros_workspaces/lab0/build/bar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros_workspaces/lab0/install/bar/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bar build --build-base /home/user/ros_workspaces/lab0/build/bar/build install --record /home/user/ros_workspaces/lab0/build/bar/install.log --single-version-externally-managed install_data
+[1.183s] running egg_info
+[1.201s] creating ../../build/bar/bar.egg-info
+[1.201s] writing ../../build/bar/bar.egg-info/PKG-INFO
+[1.202s] writing dependency_links to ../../build/bar/bar.egg-info/dependency_links.txt
+[1.202s] writing requirements to ../../build/bar/bar.egg-info/requires.txt
+[1.202s] writing top-level names to ../../build/bar/bar.egg-info/top_level.txt
+[1.202s] writing manifest file '../../build/bar/bar.egg-info/SOURCES.txt'
+[1.243s] reading manifest file '../../build/bar/bar.egg-info/SOURCES.txt'
+[1.243s] writing manifest file '../../build/bar/bar.egg-info/SOURCES.txt'
+[1.243s] running build
+[1.243s] running build_py
+[1.243s] creating /home/user/ros_workspaces/lab0/build/bar/build/lib/bar
+[1.244s] copying bar/__init__.py -> /home/user/ros_workspaces/lab0/build/bar/build/lib/bar
+[1.244s] running install
+[1.248s] running install_lib
+[1.267s] creating /home/user/ros_workspaces/lab0/install/bar/lib/python3.10/site-packages/bar
+[1.267s] copying /home/user/ros_workspaces/lab0/build/bar/build/lib/bar/__init__.py -> /home/user/ros_workspaces/lab0/install/bar/lib/python3.10/site-packages/bar
+[1.268s] byte-compiling /home/user/ros_workspaces/lab0/install/bar/lib/python3.10/site-packages/bar/__init__.py to __init__.cpython-310.pyc
+[1.268s] running install_data
+[1.268s] creating /home/user/ros_workspaces/lab0/install/bar/share/ament_index/resource_index/packages
+[1.268s] copying resource/bar -> /home/user/ros_workspaces/lab0/install/bar/share/ament_index/resource_index/packages
+[1.269s] copying package.xml -> /home/user/ros_workspaces/lab0/install/bar/share/bar
+[1.269s] running install_egg_info
+[1.292s] Copying ../../build/bar/bar.egg-info to /home/user/ros_workspaces/lab0/install/bar/lib/python3.10/site-packages/bar-0.0.0-py3.10.egg-info
+[1.293s] running install_scripts
+[1.330s] writing list of installed files to '/home/user/ros_workspaces/lab0/build/bar/install.log'
+[1.363s] Invoked command in '/home/user/ros_workspaces/lab0/src/bar' returned '0': PYTHONPATH=/home/user/ros_workspaces/lab0/build/bar/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/ros_workspaces/lab0/install/bar/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bar build --build-base /home/user/ros_workspaces/lab0/build/bar/build install --record /home/user/ros_workspaces/lab0/build/bar/install.log --single-version-externally-managed install_data

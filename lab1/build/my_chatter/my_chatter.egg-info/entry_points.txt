@@ -1,0 +1,3 @@
+[console_scripts]
+my_listener = my_chatter.new_subscriber_function:main
+my_talker = my_chatter.new_publisher_function:main
