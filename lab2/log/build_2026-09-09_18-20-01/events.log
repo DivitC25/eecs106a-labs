@@ -1,0 +1,937 @@
+[0.000000] (-) TimerEvent: {}
+[0.000605] (lab2_turtlesim) JobQueued: {'identifier': 'lab2_turtlesim', 'dependencies': OrderedDict()}
+[0.000711] (turtle_patrol) JobQueued: {'identifier': 'turtle_patrol', 'dependencies': OrderedDict()}
+[0.000777] (turtle_patrol_interface) JobQueued: {'identifier': 'turtle_patrol_interface', 'dependencies': OrderedDict()}
+[0.000833] (lab2_turtlesim) JobStarted: {'identifier': 'lab2_turtlesim'}
+[0.097589] (-) TimerEvent: {}
+[0.197391] (turtle_patrol) JobStarted: {'identifier': 'turtle_patrol'}
+[0.198321] (-) TimerEvent: {}
+[0.271733] (turtle_patrol_interface) JobStarted: {'identifier': 'turtle_patrol_interface'}
+[0.302034] (-) TimerEvent: {}
+[0.404041] (-) TimerEvent: {}
+[0.505378] (-) TimerEvent: {}
+[0.606346] (-) TimerEvent: {}
+[0.706974] (-) TimerEvent: {}
+[0.807816] (-) TimerEvent: {}
+[0.908827] (-) TimerEvent: {}
+[1.010828] (-) TimerEvent: {}
+[1.111712] (-) TimerEvent: {}
+[1.212770] (-) TimerEvent: {}
+[1.313309] (-) TimerEvent: {}
+[1.414288] (-) TimerEvent: {}
+[1.515555] (-) TimerEvent: {}
+[1.616441] (-) TimerEvent: {}
+[1.717253] (-) TimerEvent: {}
+[1.817957] (-) TimerEvent: {}
+[1.919319] (-) TimerEvent: {}
+[2.020281] (-) TimerEvent: {}
+[2.121023] (-) TimerEvent: {}
+[2.221735] (-) TimerEvent: {}
+[2.322707] (-) TimerEvent: {}
+[2.423327] (-) TimerEvent: {}
+[2.523961] (-) TimerEvent: {}
+[2.625425] (-) TimerEvent: {}
+[2.727304] (-) TimerEvent: {}
+[2.831578] (-) TimerEvent: {}
+[2.932557] (-) TimerEvent: {}
+[3.035731] (-) TimerEvent: {}
+[3.136375] (-) TimerEvent: {}
+[3.237647] (-) TimerEvent: {}
+[3.338777] (-) TimerEvent: {}
+[3.439807] (-) TimerEvent: {}
+[3.540629] (-) TimerEvent: {}
+[3.641329] (-) TimerEvent: {}
+[3.742012] (-) TimerEvent: {}
+[3.842714] (-) TimerEvent: {}
+[3.943339] (-) TimerEvent: {}
+[4.044048] (-) TimerEvent: {}
+[4.144849] (-) TimerEvent: {}
+[4.245758] (-) TimerEvent: {}
+[4.346719] (-) TimerEvent: {}
+[4.448495] (-) TimerEvent: {}
+[4.549594] (-) TimerEvent: {}
+[4.653344] (-) TimerEvent: {}
+[4.740605] (turtle_patrol_interface) JobProgress: {'identifier': 'turtle_patrol_interface', 'progress': 'cmake'}
+[4.753727] (-) TimerEvent: {}
+[4.759694] (turtle_patrol_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/src/turtle_patrol_interface', '-DCMAKE_INSTALL_PREFIX=/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface'], 'cwd': '/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/turtle_patrol_interface', 'env': OrderedDict([('ARCH', 'x86_64'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ee106a-aec'), ('HOSTNAME', 'lab12'), ('SSH_AGENT_PID', '2171682'), ('XDG_SESSION_TYPE', 'x11'), ('MASTERDIR', '/home/ff/ee106a'), ('XDG_CACHE_HOME', '/home/cc/ee106a/fa26/class/ee106a-aec/.cache'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cc/ee106a/fa26/class/ee106a-aec'), ('OLDPWD', '/home/cc/ee106a/fa26/class/ee106a-aec'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge'), ('MANAGERPID', '2171222'), ('DISTROBOX_ENTER_PATH', '/usr/local/bin/distrobox-enter'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2171308'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_52'), ('NNTPSERVER', 'news.csua.berkeley.edu'), ('VISUAL', 'emacs'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_52'), ('XDG_STATE_HOME', '/home/cc/ee106a/fa26/class/ee106a-aec/.local/state'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/90971/bus,guid=52800165431ee7d7721b66096aa1f86a'), ('COLORTERM', 'truecolor'), ('container', 'podman'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('UBUNTU_MENUPROXY', '1'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ff/ee106a/robot_workspaces/ur/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ee106a-aec'), ('MASTER', 'ee106a'), ('WINDOWID', '69206022'), ('JOURNAL_STREAM', '8:23676526'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERMINFO_DIRS', '/usr/share/terminfo:/run/host/usr/share/terminfo'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('PATH', '/opt/ros/humble/bin:/share/b/grading/bin:/home/ff/ee106a/bin:/home/ff/ee106a/bin/arch/x86_64:/share/b/grading/bin:/home/ff/ee106a/bin:/home/ff/ee106a/bin/arch/x86_64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/share/b/grading/bin:/share/b/grading/sbin:/share/b/runas/x86_64:/share/b/bin:/home/ff/ee106a/venvs/all:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/share/b/grading/bin:/share/b/grading/sbin:/share/b/runas/x86_64:/share/b/bin:/home/ff/ee106a/venvs/all'), ('SESSION_MANAGER', 'local/derby:@/tmp/.ICE-unix/2171382,unix/derby:/tmp/.ICE-unix/2171382'), ('INVOCATION_ID', '95bb76d0f0d34caa8f4be6f83d4a086b'), ('OS', 'Linux'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/90971'), ('DISPLAY', ':52.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('XDG_DATA_HOME', '/home/cc/ee106a/fa26/class/ee106a-aec/.local/share'), ('XDG_CONFIG_HOME', '/home/cc/ee106a/fa26/class/ee106a-aec/.config'), ('XMODIFIERS', '@im=ibus'), ('SSH_AUTH_SOCK', '/run/user/90971/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ff/ee106a/robot_workspaces/ur/install/ur7e_utils:/opt/ros/humble'), ('UID', '90971'), ('SHELL', '/usr/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('RUNAS', '/share/b/runas/x86_64'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/90971/gnupg/S.gpg-agent:0:1'), ('CONFIG_SHELL', '/usr/bin/ksh'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/turtle_patrol_interface'), ('EE106_ENV_SETUP', 'lab12'), ('CONTAINER_ID', 'lab12'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/90971/bus,guid=52800165431ee7d7721b66096aa1f86a'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/gnome:/home/cc/ee106a/fa26/class/ee106a-aec/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ff/ee106a/robot_workspaces/ur/install/ur7e_utils/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('MANPATH', '/usr/local/man:/usr/man:/usr/X11/man:/usr/local/man:/share/b/grading/man:/usr/local/man:/usr/man:/usr/X11/man:/usr/local/man:/share/b/grading/man:'), ('VTE_VERSION', '6800'), ('EDITOR', 'emacs'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/home/ff/ee106a/robot_workspaces/ur/install/ur7e_utils:/opt/ros/humble')]), 'shell': False}
+[4.853922] (-) TimerEvent: {}
+[4.954769] (-) TimerEvent: {}
+[5.055791] (-) TimerEvent: {}
+[5.156824] (-) TimerEvent: {}
+[5.257511] (-) TimerEvent: {}
+[5.358253] (-) TimerEvent: {}
+[5.458891] (-) TimerEvent: {}
+[5.559584] (-) TimerEvent: {}
+[5.660471] (-) TimerEvent: {}
+[5.761384] (-) TimerEvent: {}
+[5.862158] (-) TimerEvent: {}
+[5.962983] (-) TimerEvent: {}
+[6.063637] (-) TimerEvent: {}
+[6.164440] (-) TimerEvent: {}
+[6.266996] (-) TimerEvent: {}
+[6.367784] (-) TimerEvent: {}
+[6.468573] (-) TimerEvent: {}
+[6.569263] (-) TimerEvent: {}
+[6.669975] (-) TimerEvent: {}
+[6.771073] (-) TimerEvent: {}
+[6.874635] (-) TimerEvent: {}
+[6.975420] (-) TimerEvent: {}
+[7.076100] (-) TimerEvent: {}
+[7.177360] (-) TimerEvent: {}
+[7.278014] (-) TimerEvent: {}
+[7.378728] (-) TimerEvent: {}
+[7.479733] (-) TimerEvent: {}
+[7.581495] (-) TimerEvent: {}
+[7.682597] (-) TimerEvent: {}
+[7.784353] (-) TimerEvent: {}
+[7.885050] (-) TimerEvent: {}
+[7.985785] (-) TimerEvent: {}
+[8.086718] (-) TimerEvent: {}
+[8.187340] (-) TimerEvent: {}
+[8.288030] (-) TimerEvent: {}
+[8.388655] (-) TimerEvent: {}
+[8.489351] (-) TimerEvent: {}
+[8.590412] (-) TimerEvent: {}
+[8.691162] (-) TimerEvent: {}
+[8.793007] (-) TimerEvent: {}
+[8.893688] (-) TimerEvent: {}
+[8.995597] (-) TimerEvent: {}
+[9.096393] (-) TimerEvent: {}
+[9.197529] (-) TimerEvent: {}
+[9.299095] (-) TimerEvent: {}
+[9.402342] (-) TimerEvent: {}
+[9.503115] (-) TimerEvent: {}
+[9.604076] (-) TimerEvent: {}
+[9.705376] (-) TimerEvent: {}
+[9.807367] (-) TimerEvent: {}
+[9.909348] (-) TimerEvent: {}
+[10.011471] (-) TimerEvent: {}
+[10.113441] (-) TimerEvent: {}
+[10.216003] (-) TimerEvent: {}
+[10.317151] (-) TimerEvent: {}
+[10.418236] (-) TimerEvent: {}
+[10.519374] (-) TimerEvent: {}
+[10.620005] (-) TimerEvent: {}
+[10.720674] (-) TimerEvent: {}
+[10.821704] (-) TimerEvent: {}
+[10.922371] (-) TimerEvent: {}
+[11.023297] (-) TimerEvent: {}
+[11.123992] (-) TimerEvent: {}
+[11.225022] (-) TimerEvent: {}
+[11.325904] (-) TimerEvent: {}
+[11.426751] (-) TimerEvent: {}
+[11.527786] (-) TimerEvent: {}
+[11.628378] (-) TimerEvent: {}
+[11.729152] (-) TimerEvent: {}
+[11.829831] (-) TimerEvent: {}
+[11.931355] (-) TimerEvent: {}
+[12.032415] (-) TimerEvent: {}
+[12.134808] (-) TimerEvent: {}
+[12.236039] (-) TimerEvent: {}
+[12.336765] (-) TimerEvent: {}
+[12.437426] (-) TimerEvent: {}
+[12.537888] (-) TimerEvent: {}
+[12.638344] (-) TimerEvent: {}
+[12.739573] (-) TimerEvent: {}
+[12.841403] (-) TimerEvent: {}
+[12.942030] (-) TimerEvent: {}
+[13.042818] (-) TimerEvent: {}
+[13.143578] (-) TimerEvent: {}
+[13.244726] (-) TimerEvent: {}
+[13.345535] (-) TimerEvent: {}
+[13.446338] (-) TimerEvent: {}
+[13.547462] (-) TimerEvent: {}
+[13.649362] (-) TimerEvent: {}
+[13.750161] (-) TimerEvent: {}
+[13.851057] (-) TimerEvent: {}
+[13.952408] (-) TimerEvent: {}
+[14.053022] (-) TimerEvent: {}
+[14.153890] (-) TimerEvent: {}
+[14.254530] (-) TimerEvent: {}
+[14.318147] (turtle_patrol_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[14.354682] (-) TimerEvent: {}
+[14.455303] (-) TimerEvent: {}
+[14.555883] (-) TimerEvent: {}
+[14.656557] (-) TimerEvent: {}
+[14.757578] (-) TimerEvent: {}
+[14.858271] (-) TimerEvent: {}
+[14.959260] (-) TimerEvent: {}
+[15.060041] (-) TimerEvent: {}
+[15.160992] (-) TimerEvent: {}
+[15.261846] (-) TimerEvent: {}
+[15.277752] (turtle_patrol_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[15.362011] (-) TimerEvent: {}
+[15.428649] (turtle_patrol_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[15.462271] (-) TimerEvent: {}
+[15.564769] (-) TimerEvent: {}
+[15.665732] (-) TimerEvent: {}
+[15.767907] (-) TimerEvent: {}
+[15.869236] (-) TimerEvent: {}
+[15.970269] (-) TimerEvent: {}
+[16.070866] (-) TimerEvent: {}
+[16.171761] (-) TimerEvent: {}
+[16.273472] (-) TimerEvent: {}
+[16.374758] (-) TimerEvent: {}
+[16.475741] (-) TimerEvent: {}
+[16.576461] (-) TimerEvent: {}
+[16.577794] (turtle_patrol_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[16.615355] (turtle_patrol_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[16.644024] (turtle_patrol_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[16.665625] (turtle_patrol_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[16.676663] (-) TimerEvent: {}
+[16.777439] (-) TimerEvent: {}
+[16.829995] (turtle_patrol_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[16.877616] (-) TimerEvent: {}
+[16.978754] (-) TimerEvent: {}
+[17.079934] (-) TimerEvent: {}
+[17.180787] (-) TimerEvent: {}
+[17.283131] (-) TimerEvent: {}
+[17.383960] (-) TimerEvent: {}
+[17.484711] (-) TimerEvent: {}
+[17.585849] (-) TimerEvent: {}
+[17.686544] (-) TimerEvent: {}
+[17.787320] (-) TimerEvent: {}
+[17.888468] (-) TimerEvent: {}
+[17.989286] (-) TimerEvent: {}
+[18.033656] (turtle_patrol_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[18.071659] (turtle_patrol_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[18.089501] (-) TimerEvent: {}
+[18.121401] (turtle_patrol_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[18.127722] (turtle_patrol_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[18.189665] (-) TimerEvent: {}
+[18.292051] (-) TimerEvent: {}
+[18.392957] (-) TimerEvent: {}
+[18.493849] (-) TimerEvent: {}
+[18.594874] (-) TimerEvent: {}
+[18.695659] (-) TimerEvent: {}
+[18.757906] (turtle_patrol_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[18.795836] (-) TimerEvent: {}
+[18.896569] (-) TimerEvent: {}
+[18.998445] (-) TimerEvent: {}
+[19.004481] (lab2_turtlesim) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lab2_turtlesim', 'build', '--build-base', '/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/lab2_turtlesim/build', 'install', '--record', '/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/lab2_turtlesim/install.log', '--install-scripts', '$base/lib/lab2_turtlesim', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/src/lab2_turtlesim', 'env': {'ARCH': 'x86_64', 'QT_SCALE_FACTOR': '1', 'USER': 'ee106a-aec', 'HOSTNAME': 'lab12', 'SSH_AGENT_PID': '2171682', 'XDG_SESSION_TYPE': 'x11', 'MASTERDIR': '/home/ff/ee106a', 'XDG_CACHE_HOME': '/home/cc/ee106a/fa26/class/ee106a-aec/.cache', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/cc/ee106a/fa26/class/ee106a-aec', 'OLDPWD': '/home/cc/ee106a/fa26/class/ee106a-aec', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module:gail:atk-bridge', 'MANAGERPID': '2171222', 'DISTROBOX_ENTER_PATH': '/usr/local/bin/distrobox-enter', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2171308', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_52', 'NNTPSERVER': 'news.csua.berkeley.edu', 'VISUAL': 'emacs', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_52', 'XDG_STATE_HOME': '/home/cc/ee106a/fa26/class/ee106a-aec/.local/state', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/90971/bus,guid=52800165431ee7d7721b66096aa1f86a', 'COLORTERM': 'truecolor', 'container': 'podman', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'UBUNTU_MENUPROXY': '1', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ff/ee106a/robot_workspaces/ur/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ee106a-aec', 'MASTER': 'ee106a', 'WINDOWID': '69206022', 'JOURNAL_STREAM': '8:23676526', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERMINFO_DIRS': '/usr/share/terminfo:/run/host/usr/share/terminfo', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'ROS_LOCALHOST_ONLY': '0', 'GTK2_MODULES': 'overlay-scrollbar', 'PATH': '/opt/ros/humble/bin:/share/b/grading/bin:/home/ff/ee106a/bin:/home/ff/ee106a/bin/arch/x86_64:/share/b/grading/bin:/home/ff/ee106a/bin:/home/ff/ee106a/bin/arch/x86_64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/share/b/grading/bin:/share/b/grading/sbin:/share/b/runas/x86_64:/share/b/bin:/home/ff/ee106a/venvs/all:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/share/b/grading/bin:/share/b/grading/sbin:/share/b/runas/x86_64:/share/b/bin:/home/ff/ee106a/venvs/all', 'SESSION_MANAGER': 'local/derby:@/tmp/.ICE-unix/2171382,unix/derby:/tmp/.ICE-unix/2171382', 'INVOCATION_ID': '95bb76d0f0d34caa8f4be6f83d4a086b', 'OS': 'Linux', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'XDG_RUNTIME_DIR': '/run/user/90971', 'DISPLAY': ':52.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'MATE', 'XDG_DATA_HOME': '/home/cc/ee106a/fa26/class/ee106a-aec/.local/share', 'XDG_CONFIG_HOME': '/home/cc/ee106a/fa26/class/ee106a-aec/.config', 'XMODIFIERS': '@im=ibus', 'SSH_AUTH_SOCK': '/run/user/90971/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ff/ee106a/robot_workspaces/ur/install/ur7e_utils:/opt/ros/humble', 'UID': '90971', 'SHELL': '/usr/bin/bash', 'QT_ACCESSIBILITY': '1', 'RUNAS': '/share/b/runas/x86_64', 'XRDP_SESSION': '1', 'GPG_AGENT_INFO': '/run/user/90971/gnupg/S.gpg-agent:0:1', 'CONFIG_SHELL': '/usr/bin/ksh', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/lab2_turtlesim', 'EE106_ENV_SETUP': 'lab12', 'CONTAINER_ID': 'lab12', 'LC_ALL': 'C.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/90971/bus,guid=52800165431ee7d7721b66096aa1f86a', 'XDG_DATA_DIRS': '/usr/share/mate:/usr/share/gnome:/home/cc/ee106a/fa26/class/ee106a-aec/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/lab2_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/lab2_turtlesim/lib/python3.10/site-packages:/home/ff/ee106a/robot_workspaces/ur/install/ur7e_utils/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'MANPATH': '/usr/local/man:/usr/man:/usr/X11/man:/usr/local/man:/share/b/grading/man:/usr/local/man:/usr/man:/usr/X11/man:/usr/local/man:/share/b/grading/man:', 'VTE_VERSION': '6800', 'EDITOR': 'emacs', 'QT_FONT_DPI': '96'}, 'shell': False}
+[19.037810] (turtle_patrol) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtle_patrol', 'build', '--build-base', '/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/turtle_patrol/build', 'install', '--record', '/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/turtle_patrol/install.log', '--install-scripts', '$base/lib/turtle_patrol', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/src/turtle_patrol', 'env': {'ARCH': 'x86_64', 'QT_SCALE_FACTOR': '1', 'USER': 'ee106a-aec', 'HOSTNAME': 'lab12', 'SSH_AGENT_PID': '2171682', 'XDG_SESSION_TYPE': 'x11', 'MASTERDIR': '/home/ff/ee106a', 'XDG_CACHE_HOME': '/home/cc/ee106a/fa26/class/ee106a-aec/.cache', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/cc/ee106a/fa26/class/ee106a-aec', 'OLDPWD': '/home/cc/ee106a/fa26/class/ee106a-aec', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module:gail:atk-bridge', 'MANAGERPID': '2171222', 'DISTROBOX_ENTER_PATH': '/usr/local/bin/distrobox-enter', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2171308', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_52', 'NNTPSERVER': 'news.csua.berkeley.edu', 'VISUAL': 'emacs', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_52', 'XDG_STATE_HOME': '/home/cc/ee106a/fa26/class/ee106a-aec/.local/state', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/90971/bus,guid=52800165431ee7d7721b66096aa1f86a', 'COLORTERM': 'truecolor', 'container': 'podman', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'UBUNTU_MENUPROXY': '1', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ff/ee106a/robot_workspaces/ur/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'ee106a-aec', 'MASTER': 'ee106a', 'WINDOWID': '69206022', 'JOURNAL_STREAM': '8:23676526', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERMINFO_DIRS': '/usr/share/terminfo:/run/host/usr/share/terminfo', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'ROS_LOCALHOST_ONLY': '0', 'GTK2_MODULES': 'overlay-scrollbar', 'PATH': '/opt/ros/humble/bin:/share/b/grading/bin:/home/ff/ee106a/bin:/home/ff/ee106a/bin/arch/x86_64:/share/b/grading/bin:/home/ff/ee106a/bin:/home/ff/ee106a/bin/arch/x86_64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/share/b/grading/bin:/share/b/grading/sbin:/share/b/runas/x86_64:/share/b/bin:/home/ff/ee106a/venvs/all:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/share/b/grading/bin:/share/b/grading/sbin:/share/b/runas/x86_64:/share/b/bin:/home/ff/ee106a/venvs/all', 'SESSION_MANAGER': 'local/derby:@/tmp/.ICE-unix/2171382,unix/derby:/tmp/.ICE-unix/2171382', 'INVOCATION_ID': '95bb76d0f0d34caa8f4be6f83d4a086b', 'OS': 'Linux', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'XDG_RUNTIME_DIR': '/run/user/90971', 'DISPLAY': ':52.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'MATE', 'XDG_DATA_HOME': '/home/cc/ee106a/fa26/class/ee106a-aec/.local/share', 'XDG_CONFIG_HOME': '/home/cc/ee106a/fa26/class/ee106a-aec/.config', 'XMODIFIERS': '@im=ibus', 'SSH_AUTH_SOCK': '/run/user/90971/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ff/ee106a/robot_workspaces/ur/install/ur7e_utils:/opt/ros/humble', 'UID': '90971', 'SHELL': '/usr/bin/bash', 'QT_ACCESSIBILITY': '1', 'RUNAS': '/share/b/runas/x86_64', 'XRDP_SESSION': '1', 'GPG_AGENT_INFO': '/run/user/90971/gnupg/S.gpg-agent:0:1', 'CONFIG_SHELL': '/usr/bin/ksh', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/turtle_patrol', 'EE106_ENV_SETUP': 'lab12', 'CONTAINER_ID': 'lab12', 'LC_ALL': 'C.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg', 'CLUTTER_IM_MODULE': 'ibus', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/90971/bus,guid=52800165431ee7d7721b66096aa1f86a', 'XDG_DATA_DIRS': '/usr/share/mate:/usr/share/gnome:/home/cc/ee106a/fa26/class/ee106a-aec/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/turtle_patrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol/lib/python3.10/site-packages:/home/ff/ee106a/robot_workspaces/ur/install/ur7e_utils/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'COLCON': '1', 'MANPATH': '/usr/local/man:/usr/man:/usr/X11/man:/usr/local/man:/share/b/grading/man:/usr/local/man:/usr/man:/usr/X11/man:/usr/local/man:/share/b/grading/man:', 'VTE_VERSION': '6800', 'EDITOR': 'emacs', 'QT_FONT_DPI': '96'}, 'shell': False}
+[19.098701] (-) TimerEvent: {}
+[19.199624] (-) TimerEvent: {}
+[19.301644] (-) TimerEvent: {}
+[19.402973] (-) TimerEvent: {}
+[19.504273] (-) TimerEvent: {}
+[19.604973] (-) TimerEvent: {}
+[19.705863] (-) TimerEvent: {}
+[19.806489] (-) TimerEvent: {}
+[19.907336] (-) TimerEvent: {}
+[20.007966] (-) TimerEvent: {}
+[20.108576] (-) TimerEvent: {}
+[20.209490] (-) TimerEvent: {}
+[20.262962] (turtle_patrol_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[20.309717] (-) TimerEvent: {}
+[20.410619] (-) TimerEvent: {}
+[20.511581] (-) TimerEvent: {}
+[20.612457] (-) TimerEvent: {}
+[20.713157] (-) TimerEvent: {}
+[20.813975] (-) TimerEvent: {}
+[20.914801] (-) TimerEvent: {}
+[21.016314] (-) TimerEvent: {}
+[21.117294] (-) TimerEvent: {}
+[21.218293] (-) TimerEvent: {}
+[21.318920] (-) TimerEvent: {}
+[21.368302] (turtle_patrol) StdoutLine: {'line': b'running egg_info\n'}
+[21.370292] (turtle_patrol) StdoutLine: {'line': b'creating ../../build/turtle_patrol/turtle_patrol.egg-info\n'}
+[21.373722] (turtle_patrol) StdoutLine: {'line': b'writing ../../build/turtle_patrol/turtle_patrol.egg-info/PKG-INFO\n'}
+[21.375716] (lab2_turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[21.379733] (lab2_turtlesim) StdoutLine: {'line': b'creating ../../build/lab2_turtlesim/lab2_turtlesim.egg-info\n'}
+[21.383984] (lab2_turtlesim) StdoutLine: {'line': b'writing ../../build/lab2_turtlesim/lab2_turtlesim.egg-info/PKG-INFO\n'}
+[21.387949] (turtle_patrol) StdoutLine: {'line': b'writing dependency_links to ../../build/turtle_patrol/turtle_patrol.egg-info/dependency_links.txt\n'}
+[21.394441] (turtle_patrol) StdoutLine: {'line': b'writing entry points to ../../build/turtle_patrol/turtle_patrol.egg-info/entry_points.txt\n'}
+[21.396296] (lab2_turtlesim) StdoutLine: {'line': b'writing dependency_links to ../../build/lab2_turtlesim/lab2_turtlesim.egg-info/dependency_links.txt\n'}
+[21.400897] (turtle_patrol) StdoutLine: {'line': b'writing requirements to ../../build/turtle_patrol/turtle_patrol.egg-info/requires.txt\n'}
+[21.403140] (lab2_turtlesim) StdoutLine: {'line': b'writing entry points to ../../build/lab2_turtlesim/lab2_turtlesim.egg-info/entry_points.txt\n'}
+[21.404503] (turtle_patrol) StdoutLine: {'line': b'writing top-level names to ../../build/turtle_patrol/turtle_patrol.egg-info/top_level.txt\n'}
+[21.409573] (lab2_turtlesim) StdoutLine: {'line': b'writing requirements to ../../build/lab2_turtlesim/lab2_turtlesim.egg-info/requires.txt\n'}
+[21.411851] (turtle_patrol) StdoutLine: {'line': b"writing manifest file '../../build/turtle_patrol/turtle_patrol.egg-info/SOURCES.txt'\n"}
+[21.413314] (lab2_turtlesim) StdoutLine: {'line': b'writing top-level names to ../../build/lab2_turtlesim/lab2_turtlesim.egg-info/top_level.txt\n'}
+[21.419147] (-) TimerEvent: {}
+[21.423090] (lab2_turtlesim) StdoutLine: {'line': b"writing manifest file '../../build/lab2_turtlesim/lab2_turtlesim.egg-info/SOURCES.txt'\n"}
+[21.437260] (turtle_patrol) StdoutLine: {'line': b"reading manifest file '../../build/turtle_patrol/turtle_patrol.egg-info/SOURCES.txt'\n"}
+[21.442368] (turtle_patrol) StdoutLine: {'line': b"writing manifest file '../../build/turtle_patrol/turtle_patrol.egg-info/SOURCES.txt'\n"}
+[21.442761] (lab2_turtlesim) StdoutLine: {'line': b"reading manifest file '../../build/lab2_turtlesim/lab2_turtlesim.egg-info/SOURCES.txt'\n"}
+[21.443867] (turtle_patrol) StdoutLine: {'line': b'running build\n'}
+[21.445019] (turtle_patrol) StdoutLine: {'line': b'running build_py\n'}
+[21.446338] (turtle_patrol) StdoutLine: {'line': b'creating /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/turtle_patrol/build\n'}
+[21.447898] (lab2_turtlesim) StdoutLine: {'line': b"writing manifest file '../../build/lab2_turtlesim/lab2_turtlesim.egg-info/SOURCES.txt'\n"}
+[21.448520] (turtle_patrol) StdoutLine: {'line': b'creating /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/turtle_patrol/build/lib\n'}
+[21.450553] (lab2_turtlesim) StdoutLine: {'line': b'running build\n'}
+[21.451790] (lab2_turtlesim) StdoutLine: {'line': b'running build_py\n'}
+[21.451954] (turtle_patrol) StdoutLine: {'line': b'creating /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/turtle_patrol/build/lib/turtle_patrol\n'}
+[21.452145] (lab2_turtlesim) StdoutLine: {'line': b'creating /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/lab2_turtlesim/build\n'}
+[21.453264] (lab2_turtlesim) StdoutLine: {'line': b'creating /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/lab2_turtlesim/build/lib\n'}
+[21.454532] (turtle_patrol) StdoutLine: {'line': b'copying turtle_patrol/__init__.py -> /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/turtle_patrol/build/lib/turtle_patrol\n'}
+[21.454903] (lab2_turtlesim) StdoutLine: {'line': b'creating /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/lab2_turtlesim/build/lib/lab2_turtlesim\n'}
+[21.457302] (lab2_turtlesim) StdoutLine: {'line': b'copying lab2_turtlesim/__init__.py -> /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/lab2_turtlesim/build/lib/lab2_turtlesim\n'}
+[21.459940] (turtle_patrol) StdoutLine: {'line': b'copying turtle_patrol/patrol_server.py -> /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/turtle_patrol/build/lib/turtle_patrol\n'}
+[21.464036] (lab2_turtlesim) StdoutLine: {'line': b'copying lab2_turtlesim/turtle_controller.py -> /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/lab2_turtlesim/build/lib/lab2_turtlesim\n'}
+[21.468786] (turtle_patrol) StdoutLine: {'line': b'copying turtle_patrol/patrol_client.py -> /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/turtle_patrol/build/lib/turtle_patrol\n'}
+[21.470983] (lab2_turtlesim) StdoutLine: {'line': b'running install\n'}
+[21.472263] (lab2_turtlesim) StdoutLine: {'line': b'running install_lib\n'}
+[21.476322] (turtle_patrol) StdoutLine: {'line': b'running install\n'}
+[21.478093] (turtle_patrol) StdoutLine: {'line': b'running install_lib\n'}
+[21.494563] (turtle_patrol_interface) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[21.499304] (turtle_patrol) StdoutLine: {'line': b'creating /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol/lib/python3.10/site-packages/turtle_patrol\n'}
+[21.500013] (lab2_turtlesim) StdoutLine: {'line': b'creating /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/lab2_turtlesim/lib/python3.10/site-packages/lab2_turtlesim\n'}
+[21.503455] (lab2_turtlesim) StdoutLine: {'line': b'copying /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/lab2_turtlesim/build/lib/lab2_turtlesim/__init__.py -> /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/lab2_turtlesim/lib/python3.10/site-packages/lab2_turtlesim\n'}
+[21.503765] (turtle_patrol) StdoutLine: {'line': b'copying /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/turtle_patrol/build/lib/turtle_patrol/patrol_client.py -> /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol/lib/python3.10/site-packages/turtle_patrol\n'}
+[21.509734] (lab2_turtlesim) StdoutLine: {'line': b'copying /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/lab2_turtlesim/build/lib/lab2_turtlesim/turtle_controller.py -> /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/lab2_turtlesim/lib/python3.10/site-packages/lab2_turtlesim\n'}
+[21.510356] (turtle_patrol) StdoutLine: {'line': b'copying /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/turtle_patrol/build/lib/turtle_patrol/__init__.py -> /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol/lib/python3.10/site-packages/turtle_patrol\n'}
+[21.518997] (turtle_patrol) StdoutLine: {'line': b'copying /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/turtle_patrol/build/lib/turtle_patrol/patrol_server.py -> /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol/lib/python3.10/site-packages/turtle_patrol\n'}
+[21.519452] (-) TimerEvent: {}
+[21.619905] (-) TimerEvent: {}
+[21.651570] (lab2_turtlesim) StdoutLine: {'line': b'byte-compiling /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/lab2_turtlesim/lib/python3.10/site-packages/lab2_turtlesim/__init__.py to __init__.cpython-310.pyc\n'}
+[21.652027] (turtle_patrol) StdoutLine: {'line': b'byte-compiling /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol/lib/python3.10/site-packages/turtle_patrol/patrol_client.py to patrol_client.cpython-310.pyc\n'}
+[21.661121] (lab2_turtlesim) StdoutLine: {'line': b'byte-compiling /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/lab2_turtlesim/lib/python3.10/site-packages/lab2_turtlesim/turtle_controller.py to turtle_controller.cpython-310.pyc\n'}
+[21.663258] (turtle_patrol) StdoutLine: {'line': b'byte-compiling /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol/lib/python3.10/site-packages/turtle_patrol/__init__.py to __init__.cpython-310.pyc\n'}
+[21.664378] (lab2_turtlesim) StderrLine: {'line': b'  File "/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/lab2_turtlesim/lib/python3.10/site-packages/lab2_turtlesim/turtle_controller.py", line 27\n'}
+[21.664712] (lab2_turtlesim) StderrLine: {'line': b"    elif pressed_key = 's':\n"}
+[21.665369] (lab2_turtlesim) StderrLine: {'line': b'         ^^^^^^^^^^^^^^^^^\n'}
+[21.665664] (lab2_turtlesim) StderrLine: {'line': b"SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?\n"}
+[21.665927] (lab2_turtlesim) StderrLine: {'line': b'\n'}
+[21.666134] (lab2_turtlesim) StdoutLine: {'line': b'running install_data\n'}
+[21.666472] (lab2_turtlesim) StdoutLine: {'line': b'creating /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/lab2_turtlesim/share/ament_index\n'}
+[21.666857] (lab2_turtlesim) StdoutLine: {'line': b'creating /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/lab2_turtlesim/share/ament_index/resource_index\n'}
+[21.669503] (lab2_turtlesim) StdoutLine: {'line': b'creating /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/lab2_turtlesim/share/ament_index/resource_index/packages\n'}
+[21.672568] (lab2_turtlesim) StdoutLine: {'line': b'copying resource/lab2_turtlesim -> /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/lab2_turtlesim/share/ament_index/resource_index/packages\n'}
+[21.673044] (turtle_patrol) StdoutLine: {'line': b'byte-compiling /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol/lib/python3.10/site-packages/turtle_patrol/patrol_server.py to patrol_server.cpython-310.pyc\n'}
+[21.681778] (lab2_turtlesim) StdoutLine: {'line': b'copying package.xml -> /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/lab2_turtlesim/share/lab2_turtlesim\n'}
+[21.684948] (turtle_patrol) StdoutLine: {'line': b'running install_data\n'}
+[21.685923] (turtle_patrol) StdoutLine: {'line': b'creating /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol/share/ament_index\n'}
+[21.688078] (turtle_patrol) StdoutLine: {'line': b'creating /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol/share/ament_index/resource_index\n'}
+[21.689112] (lab2_turtlesim) StdoutLine: {'line': b'running install_egg_info\n'}
+[21.689854] (turtle_patrol) StdoutLine: {'line': b'creating /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol/share/ament_index/resource_index/packages\n'}
+[21.693053] (turtle_patrol) StdoutLine: {'line': b'copying resource/turtle_patrol -> /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol/share/ament_index/resource_index/packages\n'}
+[21.700703] (turtle_patrol) StdoutLine: {'line': b'copying package.xml -> /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol/share/turtle_patrol\n'}
+[21.705972] (turtle_patrol) StdoutLine: {'line': b'running install_egg_info\n'}
+[21.720070] (-) TimerEvent: {}
+[21.746757] (lab2_turtlesim) StdoutLine: {'line': b'Copying ../../build/lab2_turtlesim/lab2_turtlesim.egg-info to /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/lab2_turtlesim/lib/python3.10/site-packages/lab2_turtlesim-0.0.0-py3.10.egg-info\n'}
+[21.748753] (turtle_patrol) StdoutLine: {'line': b'Copying ../../build/turtle_patrol/turtle_patrol.egg-info to /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol/lib/python3.10/site-packages/turtle_patrol-0.0.0-py3.10.egg-info\n'}
+[21.802881] (lab2_turtlesim) StdoutLine: {'line': b'running install_scripts\n'}
+[21.806323] (turtle_patrol) StdoutLine: {'line': b'running install_scripts\n'}
+[21.820596] (-) TimerEvent: {}
+[21.921311] (-) TimerEvent: {}
+[21.924328] (lab2_turtlesim) StdoutLine: {'line': b'Installing turtle_controller script to /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/lab2_turtlesim/lib/lab2_turtlesim\n'}
+[21.934328] (lab2_turtlesim) StdoutLine: {'line': b"writing list of installed files to '/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/lab2_turtlesim/install.log'\n"}
+[21.974537] (turtle_patrol) StdoutLine: {'line': b'Installing patrol_client script to /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol/lib/turtle_patrol\n'}
+[21.984142] (turtle_patrol) StdoutLine: {'line': b'Installing patrol_client_sol script to /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol/lib/turtle_patrol\n'}
+[21.988739] (turtle_patrol) StdoutLine: {'line': b'Installing patrol_server script to /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol/lib/turtle_patrol\n'}
+[21.994852] (turtle_patrol) StdoutLine: {'line': b'Installing patrol_server_sol script to /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol/lib/turtle_patrol\n'}
+[22.004210] (turtle_patrol) StdoutLine: {'line': b"writing list of installed files to '/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/turtle_patrol/install.log'\n"}
+[22.011321] (lab2_turtlesim) CommandEnded: {'returncode': 0}
+[22.021534] (-) TimerEvent: {}
+[22.122133] (-) TimerEvent: {}
+[22.222981] (-) TimerEvent: {}
+[22.323695] (-) TimerEvent: {}
+[22.424511] (-) TimerEvent: {}
+[22.525470] (-) TimerEvent: {}
+[22.626120] (-) TimerEvent: {}
+[22.726921] (-) TimerEvent: {}
+[22.739546] (lab2_turtlesim) JobEnded: {'identifier': 'lab2_turtlesim', 'rc': 0}
+[22.752328] (turtle_patrol) CommandEnded: {'returncode': 0}
+[22.787971] (turtle_patrol_interface) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[22.827112] (-) TimerEvent: {}
+[22.850835] (turtle_patrol_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[22.873241] (turtle_patrol) JobEnded: {'identifier': 'turtle_patrol', 'rc': 0}
+[22.927574] (-) TimerEvent: {}
+[22.942675] (turtle_patrol_interface) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[23.027586] (-) TimerEvent: {}
+[23.128966] (-) TimerEvent: {}
+[23.203508] (turtle_patrol_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[23.229315] (-) TimerEvent: {}
+[23.332596] (-) TimerEvent: {}
+[23.434775] (-) TimerEvent: {}
+[23.438679] (turtle_patrol_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[23.534952] (-) TimerEvent: {}
+[23.635931] (-) TimerEvent: {}
+[23.736650] (-) TimerEvent: {}
+[23.809937] (turtle_patrol_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[23.836813] (-) TimerEvent: {}
+[23.937475] (-) TimerEvent: {}
+[24.038100] (-) TimerEvent: {}
+[24.138718] (-) TimerEvent: {}
+[24.239351] (-) TimerEvent: {}
+[24.340081] (-) TimerEvent: {}
+[24.441404] (-) TimerEvent: {}
+[24.542040] (-) TimerEvent: {}
+[24.642998] (-) TimerEvent: {}
+[24.743709] (-) TimerEvent: {}
+[24.844867] (-) TimerEvent: {}
+[24.945715] (-) TimerEvent: {}
+[25.046318] (-) TimerEvent: {}
+[25.149351] (-) TimerEvent: {}
+[25.249948] (-) TimerEvent: {}
+[25.350731] (-) TimerEvent: {}
+[25.451560] (-) TimerEvent: {}
+[25.552253] (-) TimerEvent: {}
+[25.652843] (-) TimerEvent: {}
+[25.753482] (-) TimerEvent: {}
+[25.854030] (-) TimerEvent: {}
+[25.957284] (-) TimerEvent: {}
+[26.058458] (-) TimerEvent: {}
+[26.159117] (-) TimerEvent: {}
+[26.259942] (-) TimerEvent: {}
+[26.335403] (turtle_patrol_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[26.360176] (-) TimerEvent: {}
+[26.460910] (-) TimerEvent: {}
+[26.562534] (-) TimerEvent: {}
+[26.663601] (-) TimerEvent: {}
+[26.764410] (-) TimerEvent: {}
+[26.866302] (-) TimerEvent: {}
+[26.967122] (-) TimerEvent: {}
+[27.067928] (-) TimerEvent: {}
+[27.168830] (-) TimerEvent: {}
+[27.269636] (-) TimerEvent: {}
+[27.370519] (-) TimerEvent: {}
+[27.471155] (-) TimerEvent: {}
+[27.571769] (-) TimerEvent: {}
+[27.672376] (-) TimerEvent: {}
+[27.773798] (-) TimerEvent: {}
+[27.874543] (-) TimerEvent: {}
+[27.975293] (-) TimerEvent: {}
+[28.075898] (-) TimerEvent: {}
+[28.176692] (-) TimerEvent: {}
+[28.277401] (-) TimerEvent: {}
+[28.378914] (-) TimerEvent: {}
+[28.480683] (-) TimerEvent: {}
+[28.582573] (-) TimerEvent: {}
+[28.683402] (-) TimerEvent: {}
+[28.784264] (-) TimerEvent: {}
+[28.884843] (-) TimerEvent: {}
+[28.985449] (-) TimerEvent: {}
+[29.086710] (-) TimerEvent: {}
+[29.187444] (-) TimerEvent: {}
+[29.288034] (-) TimerEvent: {}
+[29.388682] (-) TimerEvent: {}
+[29.490021] (-) TimerEvent: {}
+[29.590659] (-) TimerEvent: {}
+[29.691360] (-) TimerEvent: {}
+[29.792547] (-) TimerEvent: {}
+[29.893175] (-) TimerEvent: {}
+[29.994001] (-) TimerEvent: {}
+[30.094789] (-) TimerEvent: {}
+[30.195530] (-) TimerEvent: {}
+[30.296274] (-) TimerEvent: {}
+[30.397308] (-) TimerEvent: {}
+[30.498517] (-) TimerEvent: {}
+[30.599917] (-) TimerEvent: {}
+[30.700592] (-) TimerEvent: {}
+[30.801180] (-) TimerEvent: {}
+[30.902301] (-) TimerEvent: {}
+[31.002992] (-) TimerEvent: {}
+[31.030763] (turtle_patrol_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[31.103264] (-) TimerEvent: {}
+[31.203839] (-) TimerEvent: {}
+[31.304861] (-) TimerEvent: {}
+[31.405691] (-) TimerEvent: {}
+[31.506416] (-) TimerEvent: {}
+[31.606975] (-) TimerEvent: {}
+[31.708111] (-) TimerEvent: {}
+[31.809958] (-) TimerEvent: {}
+[31.911541] (-) TimerEvent: {}
+[32.012926] (-) TimerEvent: {}
+[32.115730] (-) TimerEvent: {}
+[32.216539] (-) TimerEvent: {}
+[32.317324] (-) TimerEvent: {}
+[32.418150] (-) TimerEvent: {}
+[32.518805] (-) TimerEvent: {}
+[32.619528] (-) TimerEvent: {}
+[32.721039] (-) TimerEvent: {}
+[32.821683] (-) TimerEvent: {}
+[32.872367] (turtle_patrol_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[32.923270] (-) TimerEvent: {}
+[33.023952] (-) TimerEvent: {}
+[33.103995] (turtle_patrol_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[33.124150] (-) TimerEvent: {}
+[33.126870] (turtle_patrol_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[33.224400] (-) TimerEvent: {}
+[33.325127] (-) TimerEvent: {}
+[33.426273] (-) TimerEvent: {}
+[33.508014] (turtle_patrol_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[33.508595] (turtle_patrol_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[33.510658] (turtle_patrol_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[33.512023] (turtle_patrol_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[33.526278] (-) TimerEvent: {}
+[33.626848] (-) TimerEvent: {}
+[33.680922] (turtle_patrol_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[33.727236] (-) TimerEvent: {}
+[33.827856] (-) TimerEvent: {}
+[33.928667] (-) TimerEvent: {}
+[34.029332] (-) TimerEvent: {}
+[34.130157] (-) TimerEvent: {}
+[34.233380] (-) TimerEvent: {}
+[34.335637] (-) TimerEvent: {}
+[34.436394] (-) TimerEvent: {}
+[34.536991] (-) TimerEvent: {}
+[34.637599] (-) TimerEvent: {}
+[34.738272] (-) TimerEvent: {}
+[34.838841] (-) TimerEvent: {}
+[34.939445] (-) TimerEvent: {}
+[35.040005] (-) TimerEvent: {}
+[35.140717] (-) TimerEvent: {}
+[35.241552] (-) TimerEvent: {}
+[35.342282] (-) TimerEvent: {}
+[35.442991] (-) TimerEvent: {}
+[35.543832] (-) TimerEvent: {}
+[35.562139] (turtle_patrol_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[35.644029] (-) TimerEvent: {}
+[35.744714] (-) TimerEvent: {}
+[35.846175] (-) TimerEvent: {}
+[35.947889] (-) TimerEvent: {}
+[36.048652] (-) TimerEvent: {}
+[36.149539] (-) TimerEvent: {}
+[36.250254] (-) TimerEvent: {}
+[36.351381] (-) TimerEvent: {}
+[36.388553] (turtle_patrol_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[36.416257] (turtle_patrol_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[36.451603] (-) TimerEvent: {}
+[36.552342] (-) TimerEvent: {}
+[36.639912] (turtle_patrol_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[36.652558] (-) TimerEvent: {}
+[36.753180] (-) TimerEvent: {}
+[36.853852] (-) TimerEvent: {}
+[36.954557] (-) TimerEvent: {}
+[37.055263] (-) TimerEvent: {}
+[37.155830] (-) TimerEvent: {}
+[37.256558] (-) TimerEvent: {}
+[37.357163] (-) TimerEvent: {}
+[37.458092] (-) TimerEvent: {}
+[37.558934] (-) TimerEvent: {}
+[37.659641] (-) TimerEvent: {}
+[37.760447] (-) TimerEvent: {}
+[37.861158] (-) TimerEvent: {}
+[37.961811] (-) TimerEvent: {}
+[38.062657] (-) TimerEvent: {}
+[38.163832] (-) TimerEvent: {}
+[38.265329] (-) TimerEvent: {}
+[38.365957] (-) TimerEvent: {}
+[38.466803] (-) TimerEvent: {}
+[38.567650] (-) TimerEvent: {}
+[38.614580] (turtle_patrol_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[38.667838] (-) TimerEvent: {}
+[38.768564] (-) TimerEvent: {}
+[38.871717] (-) TimerEvent: {}
+[38.972392] (-) TimerEvent: {}
+[39.073178] (-) TimerEvent: {}
+[39.087312] (turtle_patrol_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/turtle_patrol_interface\n'}
+[39.122512] (turtle_patrol_interface) CommandEnded: {'returncode': 0}
+[39.124578] (turtle_patrol_interface) JobProgress: {'identifier': 'turtle_patrol_interface', 'progress': 'build'}
+[39.126718] (turtle_patrol_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/turtle_patrol_interface', '--', '-j24', '-l24'], 'cwd': '/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/turtle_patrol_interface', 'env': OrderedDict([('ARCH', 'x86_64'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ee106a-aec'), ('HOSTNAME', 'lab12'), ('SSH_AGENT_PID', '2171682'), ('XDG_SESSION_TYPE', 'x11'), ('MASTERDIR', '/home/ff/ee106a'), ('XDG_CACHE_HOME', '/home/cc/ee106a/fa26/class/ee106a-aec/.cache'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cc/ee106a/fa26/class/ee106a-aec'), ('OLDPWD', '/home/cc/ee106a/fa26/class/ee106a-aec'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge'), ('MANAGERPID', '2171222'), ('DISTROBOX_ENTER_PATH', '/usr/local/bin/distrobox-enter'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2171308'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_52'), ('NNTPSERVER', 'news.csua.berkeley.edu'), ('VISUAL', 'emacs'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_52'), ('XDG_STATE_HOME', '/home/cc/ee106a/fa26/class/ee106a-aec/.local/state'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/90971/bus,guid=52800165431ee7d7721b66096aa1f86a'), ('COLORTERM', 'truecolor'), ('container', 'podman'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('UBUNTU_MENUPROXY', '1'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ff/ee106a/robot_workspaces/ur/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ee106a-aec'), ('MASTER', 'ee106a'), ('WINDOWID', '69206022'), ('JOURNAL_STREAM', '8:23676526'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERMINFO_DIRS', '/usr/share/terminfo:/run/host/usr/share/terminfo'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('PATH', '/opt/ros/humble/bin:/share/b/grading/bin:/home/ff/ee106a/bin:/home/ff/ee106a/bin/arch/x86_64:/share/b/grading/bin:/home/ff/ee106a/bin:/home/ff/ee106a/bin/arch/x86_64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/share/b/grading/bin:/share/b/grading/sbin:/share/b/runas/x86_64:/share/b/bin:/home/ff/ee106a/venvs/all:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/share/b/grading/bin:/share/b/grading/sbin:/share/b/runas/x86_64:/share/b/bin:/home/ff/ee106a/venvs/all'), ('SESSION_MANAGER', 'local/derby:@/tmp/.ICE-unix/2171382,unix/derby:/tmp/.ICE-unix/2171382'), ('INVOCATION_ID', '95bb76d0f0d34caa8f4be6f83d4a086b'), ('OS', 'Linux'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/90971'), ('DISPLAY', ':52.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('XDG_DATA_HOME', '/home/cc/ee106a/fa26/class/ee106a-aec/.local/share'), ('XDG_CONFIG_HOME', '/home/cc/ee106a/fa26/class/ee106a-aec/.config'), ('XMODIFIERS', '@im=ibus'), ('SSH_AUTH_SOCK', '/run/user/90971/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ff/ee106a/robot_workspaces/ur/install/ur7e_utils:/opt/ros/humble'), ('UID', '90971'), ('SHELL', '/usr/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('RUNAS', '/share/b/runas/x86_64'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/90971/gnupg/S.gpg-agent:0:1'), ('CONFIG_SHELL', '/usr/bin/ksh'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/turtle_patrol_interface'), ('EE106_ENV_SETUP', 'lab12'), ('CONTAINER_ID', 'lab12'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/90971/bus,guid=52800165431ee7d7721b66096aa1f86a'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/gnome:/home/cc/ee106a/fa26/class/ee106a-aec/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ff/ee106a/robot_workspaces/ur/install/ur7e_utils/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('MANPATH', '/usr/local/man:/usr/man:/usr/X11/man:/usr/local/man:/share/b/grading/man:/usr/local/man:/usr/man:/usr/X11/man:/usr/local/man:/share/b/grading/man:'), ('VTE_VERSION', '6800'), ('EDITOR', 'emacs'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/home/ff/ee106a/robot_workspaces/ur/install/ur7e_utils:/opt/ros/humble')]), 'shell': False}
+[39.173398] (-) TimerEvent: {}
+[39.274743] (-) TimerEvent: {}
+[39.376627] (-) TimerEvent: {}
+[39.477432] (-) TimerEvent: {}
+[39.578068] (-) TimerEvent: {}
+[39.679587] (-) TimerEvent: {}
+[39.781097] (-) TimerEvent: {}
+[39.848347] (turtle_patrol_interface) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[39.881469] (-) TimerEvent: {}
+[39.982304] (-) TimerEvent: {}
+[40.086468] (turtle_patrol_interface) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[40.087313] (-) TimerEvent: {}
+[40.090549] (turtle_patrol_interface) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[40.187528] (-) TimerEvent: {}
+[40.283085] (turtle_patrol_interface) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_copy_turtle_patrol_interface\n'}
+[40.287678] (-) TimerEvent: {}
+[40.388319] (-) TimerEvent: {}
+[40.489274] (-) TimerEvent: {}
+[40.589836] (-) TimerEvent: {}
+[40.690439] (-) TimerEvent: {}
+[40.790994] (-) TimerEvent: {}
+[40.892546] (-) TimerEvent: {}
+[40.993356] (-) TimerEvent: {}
+[41.094156] (-) TimerEvent: {}
+[41.195144] (-) TimerEvent: {}
+[41.296083] (-) TimerEvent: {}
+[41.397479] (-) TimerEvent: {}
+[41.498723] (-) TimerEvent: {}
+[41.600565] (-) TimerEvent: {}
+[41.701393] (-) TimerEvent: {}
+[41.803314] (-) TimerEvent: {}
+[41.903785] (-) TimerEvent: {}
+[41.983495] (turtle_patrol_interface) StdoutLine: {'line': b'[  9%] Built target turtle_patrol_interface__rs\n'}
+[42.003962] (-) TimerEvent: {}
+[42.070896] (turtle_patrol_interface) StdoutLine: {'line': b'[  9%] Built target turtle_patrol_interface__cpp\n'}
+[42.104471] (-) TimerEvent: {}
+[42.205135] (-) TimerEvent: {}
+[42.244159] (turtle_patrol_interface) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/turtle_patrol_interface__rosidl_generator_c.dir/rosidl_generator_c/turtle_patrol_interface/srv/detail/patrol__functions.c.o\x1b[0m\n'}
+[42.305917] (-) TimerEvent: {}
+[42.378717] (turtle_patrol_interface) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[42.390749] (turtle_patrol_interface) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[42.391940] (turtle_patrol_interface) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[42.406101] (-) TimerEvent: {}
+[42.506692] (-) TimerEvent: {}
+[42.607581] (-) TimerEvent: {}
+[42.708282] (-) TimerEvent: {}
+[42.809418] (-) TimerEvent: {}
+[42.910331] (-) TimerEvent: {}
+[43.010965] (-) TimerEvent: {}
+[43.111753] (-) TimerEvent: {}
+[43.213593] (-) TimerEvent: {}
+[43.314254] (-) TimerEvent: {}
+[43.415756] (-) TimerEvent: {}
+[43.516528] (-) TimerEvent: {}
+[43.617447] (-) TimerEvent: {}
+[43.718019] (-) TimerEvent: {}
+[43.818701] (-) TimerEvent: {}
+[43.919455] (-) TimerEvent: {}
+[44.019953] (-) TimerEvent: {}
+[44.121330] (-) TimerEvent: {}
+[44.125441] (turtle_patrol_interface) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libturtle_patrol_interface__rosidl_generator_c.so\x1b[0m\n'}
+[44.221596] (-) TimerEvent: {}
+[44.322403] (-) TimerEvent: {}
+[44.423338] (-) TimerEvent: {}
+[44.524337] (-) TimerEvent: {}
+[44.626504] (-) TimerEvent: {}
+[44.634006] (turtle_patrol_interface) StdoutLine: {'line': b'[ 25%] Built target turtle_patrol_interface__rosidl_generator_c\n'}
+[44.726707] (-) TimerEvent: {}
+[44.827411] (-) TimerEvent: {}
+[44.929035] (-) TimerEvent: {}
+[44.998378] (turtle_patrol_interface) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[45.029950] (-) TimerEvent: {}
+[45.030741] (turtle_patrol_interface) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[45.051372] (turtle_patrol_interface) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[45.091382] (turtle_patrol_interface) StdoutLine: {'line': b'running egg_info\n'}
+[45.094738] (turtle_patrol_interface) StdoutLine: {'line': b'creating turtle_patrol_interface.egg-info\n'}
+[45.101610] (turtle_patrol_interface) StdoutLine: {'line': b'writing turtle_patrol_interface.egg-info/PKG-INFO\n'}
+[45.107880] (turtle_patrol_interface) StdoutLine: {'line': b'writing dependency_links to turtle_patrol_interface.egg-info/dependency_links.txt\n'}
+[45.117735] (turtle_patrol_interface) StdoutLine: {'line': b'writing top-level names to turtle_patrol_interface.egg-info/top_level.txt\n'}
+[45.123703] (turtle_patrol_interface) StdoutLine: {'line': b"writing manifest file 'turtle_patrol_interface.egg-info/SOURCES.txt'\n"}
+[45.130883] (-) TimerEvent: {}
+[45.154843] (turtle_patrol_interface) StdoutLine: {'line': b"reading manifest file 'turtle_patrol_interface.egg-info/SOURCES.txt'\n"}
+[45.159221] (turtle_patrol_interface) StdoutLine: {'line': b"writing manifest file 'turtle_patrol_interface.egg-info/SOURCES.txt'\n"}
+[45.231874] (-) TimerEvent: {}
+[45.332699] (-) TimerEvent: {}
+[45.343071] (turtle_patrol_interface) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/turtle_patrol_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_patrol_interface/srv/patrol__type_support.cpp.o\x1b[0m\n'}
+[45.432890] (-) TimerEvent: {}
+[45.507277] (turtle_patrol_interface) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/turtle_patrol_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_patrol_interface/srv/detail/dds_fastrtps/patrol__type_support.cpp.o\x1b[0m\n'}
+[45.528289] (turtle_patrol_interface) StdoutLine: {'line': b'[ 40%] Built target ament_cmake_python_build_turtle_patrol_interface_egg\n'}
+[45.535750] (-) TimerEvent: {}
+[45.636336] (-) TimerEvent: {}
+[45.728421] (turtle_patrol_interface) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/turtle_patrol_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_patrol_interface/srv/detail/patrol__type_support.cpp.o\x1b[0m\n'}
+[45.736507] (-) TimerEvent: {}
+[45.837285] (-) TimerEvent: {}
+[45.938396] (-) TimerEvent: {}
+[46.041178] (-) TimerEvent: {}
+[46.142674] (-) TimerEvent: {}
+[46.243652] (-) TimerEvent: {}
+[46.344763] (-) TimerEvent: {}
+[46.447878] (-) TimerEvent: {}
+[46.549874] (-) TimerEvent: {}
+[46.650785] (-) TimerEvent: {}
+[46.752340] (-) TimerEvent: {}
+[46.852894] (-) TimerEvent: {}
+[46.953531] (-) TimerEvent: {}
+[47.054444] (-) TimerEvent: {}
+[47.155412] (-) TimerEvent: {}
+[47.256055] (-) TimerEvent: {}
+[47.357777] (-) TimerEvent: {}
+[47.458685] (-) TimerEvent: {}
+[47.561323] (-) TimerEvent: {}
+[47.663723] (-) TimerEvent: {}
+[47.765682] (-) TimerEvent: {}
+[47.866452] (-) TimerEvent: {}
+[47.967733] (-) TimerEvent: {}
+[48.069131] (-) TimerEvent: {}
+[48.169864] (-) TimerEvent: {}
+[48.270508] (-) TimerEvent: {}
+[48.348542] (turtle_patrol_interface) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/turtle_patrol_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_patrol_interface/srv/patrol__type_support.cpp.o\x1b[0m\n'}
+[48.372583] (-) TimerEvent: {}
+[48.473265] (-) TimerEvent: {}
+[48.574002] (-) TimerEvent: {}
+[48.677381] (-) TimerEvent: {}
+[48.692699] (turtle_patrol_interface) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/turtle_patrol_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_patrol_interface/srv/detail/patrol__type_support.c.o\x1b[0m\n'}
+[48.742351] (turtle_patrol_interface) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/turtle_patrol_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_patrol_interface/srv/detail/patrol__type_support_c.cpp.o\x1b[0m\n'}
+[48.777731] (-) TimerEvent: {}
+[48.878590] (-) TimerEvent: {}
+[48.933011] (turtle_patrol_interface) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_patrol_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[48.939767] (turtle_patrol_interface) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_patrol_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[48.978776] (-) TimerEvent: {}
+[49.079532] (-) TimerEvent: {}
+[49.181908] (-) TimerEvent: {}
+[49.283359] (-) TimerEvent: {}
+[49.384844] (-) TimerEvent: {}
+[49.419874] (turtle_patrol_interface) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_patrol_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[49.437647] (turtle_patrol_interface) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C shared library libturtle_patrol_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[49.485028] (-) TimerEvent: {}
+[49.587003] (-) TimerEvent: {}
+[49.687654] (-) TimerEvent: {}
+[49.788709] (-) TimerEvent: {}
+[49.793694] (turtle_patrol_interface) StdoutLine: {'line': b'[ 65%] Built target turtle_patrol_interface__rosidl_typesupport_c\n'}
+[49.837959] (turtle_patrol_interface) StdoutLine: {'line': b'[ 65%] Built target turtle_patrol_interface__rosidl_typesupport_cpp\n'}
+[49.889123] (-) TimerEvent: {}
+[49.935704] (turtle_patrol_interface) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_patrol_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[49.990175] (-) TimerEvent: {}
+[50.091746] (-) TimerEvent: {}
+[50.158870] (turtle_patrol_interface) StdoutLine: {'line': b'[ 68%] Built target turtle_patrol_interface__rosidl_typesupport_introspection_c\n'}
+[50.191905] (-) TimerEvent: {}
+[50.247887] (turtle_patrol_interface) StdoutLine: {'line': b'[ 68%] Built target turtle_patrol_interface__rosidl_typesupport_introspection_cpp\n'}
+[50.292125] (-) TimerEvent: {}
+[50.393071] (-) TimerEvent: {}
+[50.494779] (-) TimerEvent: {}
+[50.551147] (turtle_patrol_interface) StdoutLine: {'line': b'[ 68%] Built target turtle_patrol_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[50.595051] (-) TimerEvent: {}
+[50.696312] (-) TimerEvent: {}
+[50.797468] (-) TimerEvent: {}
+[50.898104] (-) TimerEvent: {}
+[50.920369] (turtle_patrol_interface) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_patrol_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[50.998696] (-) TimerEvent: {}
+[51.099424] (-) TimerEvent: {}
+[51.200101] (-) TimerEvent: {}
+[51.301861] (-) TimerEvent: {}
+[51.402602] (-) TimerEvent: {}
+[51.490071] (turtle_patrol_interface) StdoutLine: {'line': b'[ 71%] Built target turtle_patrol_interface__rosidl_typesupport_fastrtps_c\n'}
+[51.502775] (-) TimerEvent: {}
+[51.603502] (-) TimerEvent: {}
+[51.704340] (-) TimerEvent: {}
+[51.742738] (turtle_patrol_interface) StdoutLine: {'line': b'[ 71%] Built target turtle_patrol_interface\n'}
+[51.804501] (-) TimerEvent: {}
+[51.905126] (-) TimerEvent: {}
+[51.974892] (turtle_patrol_interface) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[52.005562] (-) TimerEvent: {}
+[52.106320] (-) TimerEvent: {}
+[52.206970] (-) TimerEvent: {}
+[52.307794] (-) TimerEvent: {}
+[52.408404] (-) TimerEvent: {}
+[52.509204] (-) TimerEvent: {}
+[52.610006] (-) TimerEvent: {}
+[52.710863] (-) TimerEvent: {}
+[52.812429] (-) TimerEvent: {}
+[52.914480] (-) TimerEvent: {}
+[53.015286] (-) TimerEvent: {}
+[53.115979] (-) TimerEvent: {}
+[53.216723] (-) TimerEvent: {}
+[53.317360] (-) TimerEvent: {}
+[53.417904] (-) TimerEvent: {}
+[53.518719] (-) TimerEvent: {}
+[53.619594] (-) TimerEvent: {}
+[53.720255] (-) TimerEvent: {}
+[53.731755] (turtle_patrol_interface) StdoutLine: {'line': b'[ 75%] Built target turtle_patrol_interface__py\n'}
+[53.820399] (-) TimerEvent: {}
+[53.921004] (-) TimerEvent: {}
+[53.957056] (turtle_patrol_interface) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/turtle_patrol_interface__rosidl_generator_py.dir/rosidl_generator_py/turtle_patrol_interface/srv/_patrol_s.c.o\x1b[0m\n'}
+[54.021413] (-) TimerEvent: {}
+[54.122338] (-) TimerEvent: {}
+[54.223004] (-) TimerEvent: {}
+[54.323953] (-) TimerEvent: {}
+[54.425964] (-) TimerEvent: {}
+[54.527379] (-) TimerEvent: {}
+[54.628905] (-) TimerEvent: {}
+[54.729954] (-) TimerEvent: {}
+[54.822463] (turtle_patrol_interface) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtle_patrol_interface/libturtle_patrol_interface__rosidl_generator_py.so\x1b[0m\n'}
+[54.830853] (-) TimerEvent: {}
+[54.931703] (-) TimerEvent: {}
+[55.032409] (-) TimerEvent: {}
+[55.134306] (-) TimerEvent: {}
+[55.183112] (turtle_patrol_interface) StdoutLine: {'line': b'[ 81%] Built target turtle_patrol_interface__rosidl_generator_py\n'}
+[55.234457] (-) TimerEvent: {}
+[55.334959] (-) TimerEvent: {}
+[55.435692] (-) TimerEvent: {}
+[55.458994] (turtle_patrol_interface) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/turtle_patrol_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtle_patrol_interface/_turtle_patrol_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[55.480822] (turtle_patrol_interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtle_patrol_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtle_patrol_interface/_turtle_patrol_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[55.503607] (turtle_patrol_interface) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/turtle_patrol_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtle_patrol_interface/_turtle_patrol_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[55.536233] (-) TimerEvent: {}
+[55.637293] (-) TimerEvent: {}
+[55.737927] (-) TimerEvent: {}
+[55.838742] (-) TimerEvent: {}
+[55.939555] (-) TimerEvent: {}
+[56.040290] (-) TimerEvent: {}
+[56.141166] (-) TimerEvent: {}
+[56.241830] (-) TimerEvent: {}
+[56.333735] (turtle_patrol_interface) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtle_patrol_interface/turtle_patrol_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[56.342078] (-) TimerEvent: {}
+[56.383136] (turtle_patrol_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtle_patrol_interface/turtle_patrol_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[56.383663] (turtle_patrol_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtle_patrol_interface/turtle_patrol_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[56.442163] (-) TimerEvent: {}
+[56.542930] (-) TimerEvent: {}
+[56.643596] (-) TimerEvent: {}
+[56.744404] (-) TimerEvent: {}
+[56.840137] (turtle_patrol_interface) StdoutLine: {'line': b'[100%] Built target turtle_patrol_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[56.844631] (-) TimerEvent: {}
+[56.885952] (turtle_patrol_interface) StdoutLine: {'line': b'[100%] Built target turtle_patrol_interface__rosidl_typesupport_c__pyext\n'}
+[56.894098] (turtle_patrol_interface) StdoutLine: {'line': b'[100%] Built target turtle_patrol_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[56.944967] (-) TimerEvent: {}
+[57.045913] (-) TimerEvent: {}
+[57.082631] (turtle_patrol_interface) CommandEnded: {'returncode': 0}
+[57.088508] (turtle_patrol_interface) JobProgress: {'identifier': 'turtle_patrol_interface', 'progress': 'install'}
+[57.146173] (-) TimerEvent: {}
+[57.184171] (turtle_patrol_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/turtle_patrol_interface'], 'cwd': '/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/turtle_patrol_interface', 'env': OrderedDict([('ARCH', 'x86_64'), ('QT_SCALE_FACTOR', '1'), ('USER', 'ee106a-aec'), ('HOSTNAME', 'lab12'), ('SSH_AGENT_PID', '2171682'), ('XDG_SESSION_TYPE', 'x11'), ('MASTERDIR', '/home/ff/ee106a'), ('XDG_CACHE_HOME', '/home/cc/ee106a/fa26/class/ee106a-aec/.cache'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cc/ee106a/fa26/class/ee106a-aec'), ('OLDPWD', '/home/cc/ee106a/fa26/class/ee106a-aec'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'appmenu-gtk-module:gail:atk-bridge'), ('MANAGERPID', '2171222'), ('DISTROBOX_ENTER_PATH', '/usr/local/bin/distrobox-enter'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2171308'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_52'), ('NNTPSERVER', 'news.csua.berkeley.edu'), ('VISUAL', 'emacs'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_52'), ('XDG_STATE_HOME', '/home/cc/ee106a/fa26/class/ee106a-aec/.local/state'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/90971/bus,guid=52800165431ee7d7721b66096aa1f86a'), ('COLORTERM', 'truecolor'), ('container', 'podman'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('UBUNTU_MENUPROXY', '1'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ff/ee106a/robot_workspaces/ur/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ee106a-aec'), ('MASTER', 'ee106a'), ('WINDOWID', '69206022'), ('JOURNAL_STREAM', '8:23676526'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERMINFO_DIRS', '/usr/share/terminfo:/run/host/usr/share/terminfo'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_MODULES', 'overlay-scrollbar'), ('PATH', '/opt/ros/humble/bin:/share/b/grading/bin:/home/ff/ee106a/bin:/home/ff/ee106a/bin/arch/x86_64:/share/b/grading/bin:/home/ff/ee106a/bin:/home/ff/ee106a/bin/arch/x86_64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/share/b/grading/bin:/share/b/grading/sbin:/share/b/runas/x86_64:/share/b/bin:/home/ff/ee106a/venvs/all:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/share/b/grading/bin:/share/b/grading/sbin:/share/b/runas/x86_64:/share/b/bin:/home/ff/ee106a/venvs/all'), ('SESSION_MANAGER', 'local/derby:@/tmp/.ICE-unix/2171382,unix/derby:/tmp/.ICE-unix/2171382'), ('INVOCATION_ID', '95bb76d0f0d34caa8f4be6f83d4a086b'), ('OS', 'Linux'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('XDG_RUNTIME_DIR', '/run/user/90971'), ('DISPLAY', ':52.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'MATE'), ('XDG_DATA_HOME', '/home/cc/ee106a/fa26/class/ee106a-aec/.local/share'), ('XDG_CONFIG_HOME', '/home/cc/ee106a/fa26/class/ee106a-aec/.config'), ('XMODIFIERS', '@im=ibus'), ('SSH_AUTH_SOCK', '/run/user/90971/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ff/ee106a/robot_workspaces/ur/install/ur7e_utils:/opt/ros/humble'), ('UID', '90971'), ('SHELL', '/usr/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('RUNAS', '/share/b/runas/x86_64'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/90971/gnupg/S.gpg-agent:0:1'), ('CONFIG_SHELL', '/usr/bin/ksh'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/build/turtle_patrol_interface'), ('EE106_ENV_SETUP', 'lab12'), ('CONTAINER_ID', 'lab12'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('CLUTTER_IM_MODULE', 'ibus'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/90971/bus,guid=52800165431ee7d7721b66096aa1f86a'), ('XDG_DATA_DIRS', '/usr/share/mate:/usr/share/gnome:/home/cc/ee106a/fa26/class/ee106a-aec/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ff/ee106a/robot_workspaces/ur/install/ur7e_utils/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('MATE_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('COLCON', '1'), ('MANPATH', '/usr/local/man:/usr/man:/usr/X11/man:/usr/local/man:/share/b/grading/man:/usr/local/man:/usr/man:/usr/X11/man:/usr/local/man:/share/b/grading/man:'), ('VTE_VERSION', '6800'), ('EDITOR', 'emacs'), ('QT_FONT_DPI', '96'), ('CMAKE_PREFIX_PATH', '/home/ff/ee106a/robot_workspaces/ur/install/ur7e_utils:/opt/ros/humble')]), 'shell': False}
+[57.246581] (-) TimerEvent: {}
+[57.268284] (turtle_patrol_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[57.287113] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/ament_index/resource_index/rosidl_interfaces/turtle_patrol_interface\n'}
+[57.299250] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface\n'}
+[57.316620] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/msg\n'}
+[57.329003] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[57.346762] (-) TimerEvent: {}
+[57.348575] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv\n'}
+[57.359731] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv/detail\n'}
+[57.373442] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv/detail/patrol__struct.h\n'}
+[57.385254] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv/detail/patrol__functions.c\n'}
+[57.396070] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv/detail/patrol__type_support.h\n'}
+[57.409512] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv/detail/patrol__functions.h\n'}
+[57.421344] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv/patrol.h\n'}
+[57.440145] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/environment/library_path.sh\n'}
+[57.447119] (-) TimerEvent: {}
+[57.454931] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/environment/library_path.dsv\n'}
+[57.471097] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/lib/libturtle_patrol_interface__rosidl_generator_c.so\n'}
+[57.485165] (turtle_patrol_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/lib/libturtle_patrol_interface__rosidl_generator_c.so" to ""\n'}
+[57.486784] (turtle_patrol_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface\n'}
+[57.490499] (turtle_patrol_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/msg\n'}
+[57.493877] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[57.502100] (turtle_patrol_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv\n'}
+[57.504716] (turtle_patrol_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv/detail\n'}
+[57.507406] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv/detail/patrol__rosidl_typesupport_fastrtps_c.h\n'}
+[57.516571] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/lib/libturtle_patrol_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[57.530466] (turtle_patrol_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/lib/libturtle_patrol_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[57.531595] (turtle_patrol_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface\n'}
+[57.533901] (turtle_patrol_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv\n'}
+[57.536491] (turtle_patrol_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv/detail\n'}
+[57.539257] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv/detail/patrol__type_support.hpp\n'}
+[57.547558] (-) TimerEvent: {}
+[57.550180] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv/detail/patrol__struct.hpp\n'}
+[57.560038] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv/detail/patrol__traits.hpp\n'}
+[57.570748] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv/detail/patrol__builder.hpp\n'}
+[57.580144] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv/patrol.hpp\n'}
+[57.590167] (turtle_patrol_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/msg\n'}
+[57.592957] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[57.601805] (turtle_patrol_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface\n'}
+[57.604915] (turtle_patrol_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/msg\n'}
+[57.609379] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[57.618021] (turtle_patrol_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv\n'}
+[57.620598] (turtle_patrol_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv/detail\n'}
+[57.624017] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv/detail/patrol__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[57.635764] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv/detail/dds_fastrtps\n'}
+[57.647321] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/lib/libturtle_patrol_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[57.648971] (-) TimerEvent: {}
+[57.662019] (turtle_patrol_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/lib/libturtle_patrol_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[57.663220] (turtle_patrol_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface\n'}
+[57.667921] (turtle_patrol_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/msg\n'}
+[57.671699] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[57.684427] (turtle_patrol_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv\n'}
+[57.687525] (turtle_patrol_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv/detail\n'}
+[57.691109] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv/detail/patrol__type_support.c\n'}
+[57.703250] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv/detail/patrol__rosidl_typesupport_introspection_c.h\n'}
+[57.714563] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/lib/libturtle_patrol_interface__rosidl_typesupport_introspection_c.so\n'}
+[57.727727] (turtle_patrol_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/lib/libturtle_patrol_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[57.733117] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/lib/libturtle_patrol_interface__rosidl_typesupport_c.so\n'}
+[57.748841] (turtle_patrol_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/lib/libturtle_patrol_interface__rosidl_typesupport_c.so" to ""\n'}
+[57.749428] (-) TimerEvent: {}
+[57.750664] (turtle_patrol_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface\n'}
+[57.753449] (turtle_patrol_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv\n'}
+[57.757016] (turtle_patrol_interface) StdoutLine: {'line': b'-- Up-to-date: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv/detail\n'}
+[57.760283] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv/detail/patrol__rosidl_typesupport_introspection_cpp.hpp\n'}
+[57.770068] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/include/turtle_patrol_interface/turtle_patrol_interface/srv/detail/patrol__type_support.cpp\n'}
+[57.781679] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/lib/libturtle_patrol_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[57.795542] (turtle_patrol_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/lib/libturtle_patrol_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[57.798840] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/lib/libturtle_patrol_interface__rosidl_typesupport_cpp.so\n'}
+[57.815606] (turtle_patrol_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/lib/libturtle_patrol_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[57.817959] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/environment/pythonpath.sh\n'}
+[57.829965] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/environment/pythonpath.dsv\n'}
+[57.839717] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface-0.0.0-py3.10.egg-info\n'}
+[57.849623] (-) TimerEvent: {}
+[57.859523] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[57.869743] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[57.882533] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[57.893574] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[57.905818] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface\n'}
+[57.920294] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface/__init__.py\n'}
+[57.931292] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface/srv\n'}
+[57.947059] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface/srv/__init__.py\n'}
+[57.949825] (-) TimerEvent: {}
+[57.956096] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface/srv/_patrol_s.c\n'}
+[57.968314] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface/srv/_patrol.py\n'}
+[57.986637] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface/turtle_patrol_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[58.050105] (-) TimerEvent: {}
+[58.072156] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface/_turtle_patrol_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[58.087431] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface/_turtle_patrol_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[58.094871] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface/turtle_patrol_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[58.108113] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface/_turtle_patrol_interface_s.ep.rosidl_typesupport_c.c\n'}
+[58.118785] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface/turtle_patrol_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[58.131307] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface/libturtle_patrol_interface__rosidl_generator_py.so\n'}
+[58.150318] (-) TimerEvent: {}
+[58.251012] (-) TimerEvent: {}
+[58.351778] (-) TimerEvent: {}
+[58.440576] (turtle_patrol_interface) StdoutLine: {'line': b"Listing '/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface'...\n"}
+[58.441115] (turtle_patrol_interface) StdoutLine: {'line': b"Compiling '/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface/__init__.py'...\n"}
+[58.442692] (turtle_patrol_interface) StdoutLine: {'line': b"Listing '/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface/srv'...\n"}
+[58.442893] (turtle_patrol_interface) StdoutLine: {'line': b"Compiling '/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface/srv/__init__.py'...\n"}
+[58.444713] (turtle_patrol_interface) StdoutLine: {'line': b"Compiling '/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface/srv/_patrol.py'...\n"}
+[58.452267] (-) TimerEvent: {}
+[58.462589] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface/turtle_patrol_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[58.481067] (turtle_patrol_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface/turtle_patrol_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[58.486908] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface/turtle_patrol_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[58.504985] (turtle_patrol_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface/turtle_patrol_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[58.511821] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface/turtle_patrol_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[58.525935] (turtle_patrol_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/local/lib/python3.10/dist-packages/turtle_patrol_interface/turtle_patrol_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[58.529905] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/lib/libturtle_patrol_interface__rosidl_generator_py.so\n'}
+[58.540937] (turtle_patrol_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/lib/libturtle_patrol_interface__rosidl_generator_py.so" to ""\n'}
+[58.551285] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/ament_index/resource_index/rust_packages/turtle_patrol_interface\n'}
+[58.552320] (-) TimerEvent: {}
+[58.559120] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/rust\n'}
+[58.570289] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/rust/build.rs\n'}
+[58.579135] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/rust/Cargo.toml\n'}
+[58.590312] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/rust/src\n'}
+[58.602399] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/rust/src/srv.rs\n'}
+[58.612395] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/rust/src/srv\n'}
+[58.625309] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/rust/src/srv/rmw.rs\n'}
+[58.635984] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/rust/src/lib.rs\n'}
+[58.652510] (-) TimerEvent: {}
+[58.655357] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/srv/Patrol.idl\n'}
+[58.666166] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/srv/Patrol.srv\n'}
+[58.677057] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/srv/Patrol_Request.msg\n'}
+[58.688013] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/srv/Patrol_Response.msg\n'}
+[58.706249] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/ament_index/resource_index/package_run_dependencies/turtle_patrol_interface\n'}
+[58.726393] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/ament_index/resource_index/parent_prefix_path/turtle_patrol_interface\n'}
+[58.737342] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/environment/ament_prefix_path.sh\n'}
+[58.752719] (-) TimerEvent: {}
+[58.754936] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/environment/ament_prefix_path.dsv\n'}
+[58.766794] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/environment/path.sh\n'}
+[58.783898] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/environment/path.dsv\n'}
+[58.793103] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/local_setup.bash\n'}
+[58.804652] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/local_setup.sh\n'}
+[58.814567] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/local_setup.zsh\n'}
+[58.824394] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/local_setup.dsv\n'}
+[58.836083] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/package.dsv\n'}
+[58.852902] (-) TimerEvent: {}
+[58.855340] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/ament_index/resource_index/packages/turtle_patrol_interface\n'}
+[58.871994] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/cmake/export_turtle_patrol_interface__rosidl_generator_cExport.cmake\n'}
+[58.882892] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/cmake/export_turtle_patrol_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[58.892862] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/cmake/export_turtle_patrol_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[58.904001] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/cmake/export_turtle_patrol_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[58.918264] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/cmake/export_turtle_patrol_interface__rosidl_generator_cppExport.cmake\n'}
+[58.930475] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/cmake/export_turtle_patrol_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[58.941899] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/cmake/export_turtle_patrol_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[58.953098] (-) TimerEvent: {}
+[58.955242] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/cmake/turtle_patrol_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[58.968766] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/cmake/turtle_patrol_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[58.980631] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/cmake/turtle_patrol_interface__rosidl_typesupport_cExport.cmake\n'}
+[58.993565] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/cmake/turtle_patrol_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[59.007839] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/cmake/turtle_patrol_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[59.020222] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/cmake/turtle_patrol_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[59.033995] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/cmake/turtle_patrol_interface__rosidl_typesupport_cppExport.cmake\n'}
+[59.045668] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/cmake/turtle_patrol_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[59.053301] (-) TimerEvent: {}
+[59.056782] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/cmake/export_turtle_patrol_interface__rosidl_generator_pyExport.cmake\n'}
+[59.068035] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/cmake/export_turtle_patrol_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[59.080641] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[59.092063] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[59.104669] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[59.115820] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[59.125581] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[59.138258] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[59.152004] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[59.153425] (-) TimerEvent: {}
+[59.165120] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[59.175171] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/cmake/turtle_patrol_interfaceConfig.cmake\n'}
+[59.186273] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/cmake/turtle_patrol_interfaceConfig-version.cmake\n'}
+[59.198144] (turtle_patrol_interface) StdoutLine: {'line': b'-- Installing: /home/cc/ee106a/fa26/class/ee106a-aec/ros_workspaces/lab2/install/turtle_patrol_interface/share/turtle_patrol_interface/package.xml\n'}
+[59.223139] (turtle_patrol_interface) CommandEnded: {'returncode': 0}
+[59.253589] (-) TimerEvent: {}
+[59.354121] (-) TimerEvent: {}
+[59.455407] (-) TimerEvent: {}
+[59.495753] (turtle_patrol_interface) JobEnded: {'identifier': 'turtle_patrol_interface', 'rc': 0}
+[59.504903] (-) EventReactorShutdown: {}
