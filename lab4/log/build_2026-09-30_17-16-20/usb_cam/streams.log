@@ -1,0 +1,103 @@
+[0.273s] Invoking command in '/home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/turtlebot_controller:/home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/ros2_aruco:/opt/ros/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/build/usb_cam -- -j32 -l32
+[1.220s] -- Found ament_cmake_auto: 1.3.14 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.587s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.590s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.598s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.608s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.619s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.725s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.731s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.031s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.364s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.372s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.378s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/usb_cam` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[2.421s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.452s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.453s] -- Configured cppcheck include dirs: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/src/usb_cam/include
+[2.453s] -- Configured cppcheck exclude dirs and/or files: 
+[2.483s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.483s] -- Configured cpplint exclude dirs and/or files: 
+[2.488s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.495s] -- Added test 'lint_cmake' to check CMake code style
+[2.500s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.530s] -- Added test 'uncrustify' to check C / C++ code style
+[2.530s] -- Configured uncrustify additional arguments: 
+[2.534s] -- Added test 'xmllint' to check XML markup files
+[2.571s] -- Configuring done
+[3.006s] -- Generating done
+[3.129s] -- Build files have been written to: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/build/usb_cam
+[3.195s] [35m[1mConsolidate compiler generated dependencies of target usb_cam[0m
+[3.197s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[3.197s] [35m[1mConsolidate compiler generated dependencies of target usb_cam_node_exe[0m
+[3.200s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[3.511s] [ 14%] Built target gtest_main
+[3.522s] [ 35%] Built target gtest
+[3.525s] [ 42%] Built target usb_cam
+[3.531s] [ 50%] [32mBuilding CXX object CMakeFiles/usb_cam_node_exe.dir/rclcpp_components/node_main_usb_cam_node_exe.cpp.o[0m
+[3.549s] [35m[1mConsolidate compiler generated dependencies of target test_pixel_formats[0m
+[3.549s] [35m[1mConsolidate compiler generated dependencies of target usb_cam_node[0m
+[3.549s] [35m[1mConsolidate compiler generated dependencies of target test_usb_cam_utils[0m
+[3.760s] [ 78%] Built target test_pixel_formats
+[3.762s] [ 78%] Built target test_usb_cam_utils
+[3.768s] [ 92%] Built target usb_cam_node
+[5.738s] [100%] [32m[1mLinking CXX executable usb_cam_node_exe[0m
+[5.932s] [100%] Built target usb_cam_node_exe
+[5.966s] Invoked command in '/home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/turtlebot_controller:/home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/ros2_aruco:/opt/ros/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/build/usb_cam -- -j32 -l32
+[5.983s] Invoking command in '/home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/turtlebot_controller:/home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/ros2_aruco:/opt/ros/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/build/usb_cam
+[5.992s] -- Install configuration: ""
+[5.992s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/usb_cam/environment/library_path.sh
+[6.003s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/usb_cam/environment/library_path.dsv
+[6.012s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/lib/usb_cam/usb_cam_node_exe
+[6.058s] -- Set runtime path of "/home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/lib/usb_cam/usb_cam_node_exe" to ""
+[6.060s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/lib/usb_cam/show_image.py
+[6.067s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/lib/libusb_cam.so
+[6.077s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/lib/libusb_cam_node.so
+[6.090s] -- Set runtime path of "/home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/lib/libusb_cam_node.so" to ""
+[6.091s] -- Up-to-date: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/include
+[6.093s] -- Up-to-date: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/include/usb_cam
+[6.095s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/include/usb_cam/conversions.hpp
+[6.103s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/include/usb_cam/constants.hpp
+[6.111s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/include/usb_cam/utils.hpp
+[6.120s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/include/usb_cam/usb_cam_node.hpp
+[6.131s] -- Up-to-date: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/include/usb_cam/formats
+[6.134s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/include/usb_cam/formats/utils.hpp
+[6.142s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/include/usb_cam/formats/uyvy.hpp
+[6.150s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/include/usb_cam/formats/m420.hpp
+[6.158s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/include/usb_cam/formats/mjpeg.hpp
+[6.166s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/include/usb_cam/formats/yuyv.hpp
+[6.175s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp
+[6.185s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/include/usb_cam/formats/mono.hpp
+[6.192s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/include/usb_cam/formats/av_pixel_format_helper.hpp
+[6.201s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/include/usb_cam/formats/rgb.hpp
+[6.210s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/include/usb_cam/usb_cam.hpp
+[6.219s] -- Up-to-date: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/lib/libusb_cam_node.so
+[6.222s] -- Up-to-date: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/usb_cam/launch
+[6.223s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/usb_cam/launch/camera_config.py
+[6.231s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/usb_cam/launch/camera.launch.py
+[6.239s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/usb_cam/launch/__init__.py
+[6.246s] -- Up-to-date: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/usb_cam/config
+[6.248s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/usb_cam/config/params_2.yaml
+[6.256s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/usb_cam/config/camera_info.yaml
+[6.265s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/usb_cam/config/c922_pro_stream_webcam.yaml
+[6.273s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/usb_cam/config/params.yaml
+[6.282s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/usb_cam/config/params_1.yaml
+[6.290s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam
+[6.298s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam
+[6.306s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh
+[6.317s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv
+[6.325s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/usb_cam/environment/path.sh
+[6.339s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/usb_cam/environment/path.dsv
+[6.346s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/usb_cam/local_setup.bash
+[6.354s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/usb_cam/local_setup.sh
+[6.362s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/usb_cam/local_setup.zsh
+[6.370s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/usb_cam/local_setup.dsv
+[6.378s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/usb_cam/package.dsv
+[6.384s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/ament_index/resource_index/packages/usb_cam
+[6.392s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam
+[6.399s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake
+[6.407s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.416s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.423s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake
+[6.431s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake
+[6.440s] -- Installing: /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/usb_cam/share/usb_cam/package.xml
+[6.452s] Invoked command in '/home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/turtlebot_controller:/home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/install/ros2_aruco:/opt/ros/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab4/build/usb_cam

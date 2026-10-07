@@ -1,0 +1,3 @@
+[console_scripts]
+my_forward = forward_kinematics.forward_kinematics_node:main
+

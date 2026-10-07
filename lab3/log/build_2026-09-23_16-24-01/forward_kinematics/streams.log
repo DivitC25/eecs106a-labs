@@ -1,0 +1,46 @@
+[2.206s] Invoking command in '/home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/src/forward_kinematics': PYTHONPATH=/home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/build/forward_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/install/forward_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/forward_kinematics build --build-base /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/build/forward_kinematics/build install --record /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/build/forward_kinematics/install.log --install-scripts $base/lib/forward_kinematics --single-version-externally-managed install_data
+[2.414s] running egg_info
+[2.415s] creating ../../build/forward_kinematics/forward_kinematics.egg-info
+[2.417s] writing ../../build/forward_kinematics/forward_kinematics.egg-info/PKG-INFO
+[2.424s] writing dependency_links to ../../build/forward_kinematics/forward_kinematics.egg-info/dependency_links.txt
+[2.426s] writing entry points to ../../build/forward_kinematics/forward_kinematics.egg-info/entry_points.txt
+[2.429s] writing requirements to ../../build/forward_kinematics/forward_kinematics.egg-info/requires.txt
+[2.432s] writing top-level names to ../../build/forward_kinematics/forward_kinematics.egg-info/top_level.txt
+[2.435s] writing manifest file '../../build/forward_kinematics/forward_kinematics.egg-info/SOURCES.txt'
+[2.442s] reading manifest file '../../build/forward_kinematics/forward_kinematics.egg-info/SOURCES.txt'
+[2.444s] writing manifest file '../../build/forward_kinematics/forward_kinematics.egg-info/SOURCES.txt'
+[2.444s] running build
+[2.444s] running build_py
+[2.445s] creating /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/build/forward_kinematics/build
+[2.447s] creating /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/build/forward_kinematics/build/lib
+[2.449s] creating /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/build/forward_kinematics/build/lib/forward_kinematics
+[2.451s] copying forward_kinematics/kin_func_skeleton.py -> /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/build/forward_kinematics/build/lib/forward_kinematics
+[2.457s] copying forward_kinematics/__init__.py -> /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/build/forward_kinematics/build/lib/forward_kinematics
+[2.461s] copying forward_kinematics/forward_kinematics_node.py -> /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/build/forward_kinematics/build/lib/forward_kinematics
+[2.479s] running install
+[2.479s] running install_lib
+[2.481s] creating /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/install/forward_kinematics/lib/python3.10/site-packages/forward_kinematics
+[2.481s] copying /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/build/forward_kinematics/build/lib/forward_kinematics/forward_kinematics_node.py -> /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/install/forward_kinematics/lib/python3.10/site-packages/forward_kinematics
+[2.488s] copying /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/build/forward_kinematics/build/lib/forward_kinematics/__init__.py -> /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/install/forward_kinematics/lib/python3.10/site-packages/forward_kinematics
+[2.491s] copying /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/build/forward_kinematics/build/lib/forward_kinematics/kin_func_skeleton.py -> /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/install/forward_kinematics/lib/python3.10/site-packages/forward_kinematics
+[2.499s] byte-compiling /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/install/forward_kinematics/lib/python3.10/site-packages/forward_kinematics/forward_kinematics_node.py to forward_kinematics_node.cpython-310.pyc
+[2.508s] byte-compiling /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/install/forward_kinematics/lib/python3.10/site-packages/forward_kinematics/__init__.py to __init__.cpython-310.pyc
+[2.515s] byte-compiling /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/install/forward_kinematics/lib/python3.10/site-packages/forward_kinematics/kin_func_skeleton.py to kin_func_skeleton.cpython-310.pyc
+[2.516s]   File "/home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/install/forward_kinematics/lib/python3.10/site-packages/forward_kinematics/kin_func_skeleton.py", line 207
+[2.517s]     def twist_to_SE3(xi, theta = 1)
+[2.517s]                                    ^
+[2.517s] SyntaxError: expected ':'
+[2.517s] 
+[2.517s] running install_data
+[2.517s] creating /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/install/forward_kinematics/share/ament_index
+[2.518s] creating /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/install/forward_kinematics/share/ament_index/resource_index
+[2.520s] creating /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/install/forward_kinematics/share/ament_index/resource_index/packages
+[2.522s] copying resource/forward_kinematics -> /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/install/forward_kinematics/share/ament_index/resource_index/packages
+[2.528s] copying package.xml -> /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/install/forward_kinematics/share/forward_kinematics
+[2.534s] creating /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/install/forward_kinematics/share/forward_kinematics/urdf
+[2.536s] copying urdf/ur7e_flattened.urdf -> /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/install/forward_kinematics/share/forward_kinematics/urdf
+[2.542s] running install_egg_info
+[2.560s] Copying ../../build/forward_kinematics/forward_kinematics.egg-info to /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/install/forward_kinematics/lib/python3.10/site-packages/forward_kinematics-0.0.0-py3.10.egg-info
+[2.601s] running install_scripts
+[2.625s] writing list of installed files to '/home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/build/forward_kinematics/install.log'
+[2.729s] Invoked command in '/home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/src/forward_kinematics' returned '0': PYTHONPATH=/home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/build/forward_kinematics/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/install/forward_kinematics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/forward_kinematics build --build-base /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/build/forward_kinematics/build install --record /home/cc/ee106a/fa26/class/ee106a-ady/ros_workspaces/lab3/build/forward_kinematics/install.log --install-scripts $base/lib/forward_kinematics --single-version-externally-managed install_data
